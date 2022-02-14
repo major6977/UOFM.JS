@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="style" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <H1>Modify the DOM</H1>
+
+    <button onclick="document.getElementById('stuff').innerHTML = 'Because I am Happy';">First</button>
+   
+
+    <button onclick="document.getElementById('hitMe').innerHTML = 'Clicked Third Button';">Third</button>
+    
+    <P id="stuff">This code will not change.</P>
+    <p onmouseover="change()"; onmouseout="goBack()" id="whatIf">this will change.</p>
+    <p id="hitMe" >This should not change either.</p>
+
+    
+</body>
+</html>
