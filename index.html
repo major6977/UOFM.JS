@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="style" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
-</head>
-<body>
-    <H1>Modify the DOM</H1>
+  </head>
+  <body>
+    <h1>Modify the DOM</h1>
 
-    <button onclick="document.getElementById('stuff').innerHTML = 'Because I am Happy';">First</button>
-   
+    <button
+      onclick="document.getElementById('stuff').innerHTML = 'Because I am Happy';"
+    >
+      First
+    </button>
 
-    <button onclick="document.getElementById('hitMe').innerHTML = 'Clicked Third Button';">Third</button>
-    
-    <P id="stuff">This code will not change.</P>
-    <p onmouseover="change()"; onmouseout="goBack()" id="whatIf">this will change.</p>
-  
-    <p onmouseover="Third()"; onmouseout="thisIsIt()" id="hitMe">give it to me.</p>
+    <button onclick="document.getElementById('hitMe').innerHTML = 'Funny Man';">
+      Third
+    </button>
 
-    
-</body>
+    <p id="stuff">This will deffenitly change.</p>
+    <p onmouseover="change()" ; onmouseout="goBack()" id="whatIf">
+      this will change.
+    </p>
+
+    <p onmouseover="Third()" ; onmouseout="thisIsIt()" id="hitMe">
+      give it to me.
+    </p>
+
+    <button type="button" onclick="openMe()">Open!</button>
+
+    <button type="button" onclick="closeMe()">Close!</button>
+
+    <p id="demo">
+      Extra details...You can open and close this paragraph using the buttons
+      above.
+    </p>
+  </body>
 </html>
