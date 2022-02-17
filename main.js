@@ -30,10 +30,6 @@ function closeMe() {
     function openMe() {
        
 
-    function color() {
-            document.getElementById('demo').style.color='red';   
-        }
-       
         // 2: Change the class
         //x.className='open';
 
