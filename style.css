@@ -12,3 +12,11 @@ button {
     background-color: orangered;
     color: white;
 }
+
+button1 {
+    display: block;
+    text-align: center;
+    width: 250px;
+    background-color: green;
+    color: white;
+}
