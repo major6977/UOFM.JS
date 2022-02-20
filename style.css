@@ -13,10 +13,20 @@ button {
     color: white;
 }
 
-button1 {
+#button1 {
     display: block;
     text-align: center;
     width: 250px;
+    height: 25px;
     background-color: green;
     color: white;
+    transition: 1.5s;
+  
+}
+
+#button1:hover {
+    width: 270px;
+    height: 50px;
+    opacity: .6;
+    
 }

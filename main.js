@@ -1,20 +1,20 @@
 
-//  function change(){
-//     onmouseover = document.getElementById('whatIf').innerHTML='Help ME Out';
-//  }
+  function change(){
+     onmouseover = document.getElementById('whatIf').innerHTML='Help ME Out';
+  }
 
-//  function goBack(){
-//      onmouseout = document.getElementById('whatIf').innerHTML='this will change';
-//  }
+  function goBack(){
+      onmouseout = document.getElementById('whatIf').innerHTML='this will change';
+  }
 
-//  function Third(){
-//     onmouseout = document.getElementById('hitMe').innerHTML='this will change as well';
+  function Third(){
+     onmouseout = document.getElementById('hitMe').innerHTML='this will change as well';
 
-//  }
+  }
 
-//  function thisIsIt() {
-//      onmouseover = document.getElementById('hitMe').innerHTML='give it to me';
-//  }
+  function thisIsIt() {
+      onmouseover = document.getElementById('hitMe').innerHTML='give it to me';
+  }
 
 
 // function closeMe() {
@@ -41,29 +41,30 @@
 
     // NEW LINE OF CODE
 
+        
+ 
+   
     let fruits = ["Banana", "Orange", "Mango", "Apple"];
+        function loadFruits(){ 
+        document.getElementById("fruits").innerHTML = fruits; 
+        loadCars();
+}
 
-    function loadFruits(){
-        document.getElementById("fruits").innerHTML = fruits;
-    }
+let cars = ["Honda", "Toyota", "Nissan"];
+function loadCars(){ 
+document.getElementById("cars").innerHTML = cars;
+}
 
-    function myFunction(){
-        let fruit = prompt("What is Your Favorite Fruit?");
-        fruits[fruits.length] = fruit;
-        document.getElementById("fruits").innerHTML = fruits;
-    }
-
-
-
-    let cars = ["Honda", "Toyota", "Nissan"];
-
-    function loadCars(){
-        document.getElementById("cars").innerHTML = cars;
-    }
-
+function myFunction(){
+    let fruit = prompt("What is Your Favorite Fruit?");
+    fruits[fruits.length] = fruit;
+    document.getElementById("fruits").innerHTML = fruits;
+}
     function theFunction(){
-        let cars = prompt("Name Your Favorite Model Car!");
-        cars[cars.length] = cars;
+        let pop = prompt("Name Your Favorite Model Car!");
+    cars[cars.length] = pop;
         document.getElementById("cars").innerHTML = cars;
     }
+
+
     
