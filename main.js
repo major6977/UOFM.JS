@@ -66,13 +66,15 @@
 //         document.getElementById("cars").innerHTML = cars;
 //     } 
 
-    
-    let sum = [80, 87, 94, 82, 62, 98, 81, 81, 74, 91];
+    let sum = 0;
+    let grades = [80, 87, 94 ,82 ,62 ,98 ,81 ,81 ,74 ,91];
     for (index = 0; index < grades.length; index++){ 
         sum += grades[index];
+        console.log(sum);
     }
     document.write(sum/grades.length);
 
+    
     
 
     
