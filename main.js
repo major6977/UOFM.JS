@@ -66,16 +66,22 @@
 //         document.getElementById("cars").innerHTML = cars;
 //     } 
 
-    let sum = 0;
-    let grades = [80, 87, 94 ,82 ,62 ,98 ,81 ,81 ,74 ,91];
-    for (index = 0; index < grades.length; index++){ 
-        sum += grades[index];
-        console.log(sum);
-    }
-    document.write(sum/grades.length);
+    // let sum = 0;
+    // let grades = [80, 87, 94 ,82 ,62 ,98 ,81 ,81 ,74 ,91];
+    // for (index = 0; index < grades.length; index++){ 
+    //     sum += grades[index];
+    //     console.log(sum);
+    // }
+    // document.write(sum/grades.length);
 
-    
-    
+
+    let totals = 0;
+    let average = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ,25 ,30, 31];
+    for (index = 0; index < average.length; index++){
+        totals += average[index];
+        console.log[totals];
+    }
+    document.write(totals*average.length);
 
     
 
