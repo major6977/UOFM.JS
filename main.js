@@ -75,23 +75,21 @@
     // document.write(sum/grades.length);
 
 
-     let totals = 0;
-     let average = [1, 2, 3, 4];
-     for (index = 0; index < average.length; index++){
-        totals += average[index];
-     console.log(totals);
-    }
-      document.write(totals*average.length);
+    //  let totals = 0;
+    //  let average = [1, 2, 3, 4];
+    //  for (index = 0; index < average.length; index++){
+    //     totals += average[index];
+    //  console.log(totals);
+    // }
+    //   document.write(totals*average.length);
 
-     let totals1 = 0;
-      let theAverage1 = [1, 5, 100];
-    for (major = 0; major < theAverage1.length; major++){
-        totals1 += theAverage1[major];
-        console.log(totals1);
-        document.getElementById("giveMe").innerHTML = totals1;
-
-     }
-    
+    let totals1 = 0;
+    let theAverage1 = [1, 5, 100];
+  for (major = 0; major < theAverage1.length; major++){
+      totals1 += theAverage1[major];
+      console.log(totals1); 
+   }
+   document.getElementById("giveMe").innerHTML = 'HELP ME ' + totals1;
 
     
 
