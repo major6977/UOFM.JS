@@ -83,15 +83,21 @@
     // }
     //   document.write(totals*average.length);
 
-    let totals1 = 0;
-    let theAverage1 = [1, 5, 100];
-  for (major = 0; major < theAverage1.length; major++){
-      totals1 += theAverage1[major];
-      console.log(totals1); 
-   }
-   document.getElementById("giveMe").innerHTML = 'HELP ME ' + totals1;
+//     let totals1 = 0;
+//     let theAverage1 = [1, 5, 100];
+//   for (major = 0; major < theAverage1.length; major++){
+//       totals1 += theAverage1[major];
+//       console.log(totals1); 
+//    }
+//    document.getElementById("giveMe").innerHTML = 'HELP ME ' + totals1;
+  
+let major1 = 0;
+let sums = [9, 8, 900];
+for (totals2 = 0; totals2 < sums.length; totals2++){
+    major1 += sums[totals2];
+    console.log(major1);
+}
 
-    
-
+document.getElementById('helpMePlease').innerHTML = 'Learning Javascript is fun ' + major1;
 
     
