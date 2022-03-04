@@ -76,12 +76,12 @@
 
 
     //  let totals = 0;
-    //  let average = [1, 2, 3, 4];
-    //  for (index = 0; index < average.length; index++){
-    //     totals += average[index];
+    //   let average = [1, 2, 3, 4];
+    //   for (index = 0; index < average.length; index++){
+    //      totals += average[index];
     //  console.log(totals);
-    // }
-    //   document.write(totals*average.length);
+    //  }
+    //    document.write(totals*average.length);
 
 //     let totals1 = 0;
 //     let theAverage1 = [1, 5, 100];
@@ -91,13 +91,33 @@
 //    }
 //    document.getElementById("giveMe").innerHTML = 'HELP ME ' + totals1;
   
-let major1 = 0;
-let sums = [9, 8, 900];
-for (totals2 = 0; totals2 < sums.length; totals2++){
-    major1 += sums[totals2];
-    console.log(major1);
-}
+// let major1 = 0;
+// let sums = [9, 8, 900];
+// for (totals2 = 0; totals2 < sums.length; totals2++){
+//     major1 += sums[totals2];
+//     console.log(major1);
+// }
 
-document.getElementById('helpMePlease').innerHTML = 'Learning Javascript is fun ' + major1;
+// document.getElementById('helpMePlease').innerHTML = 'Learning Javascript is fun ' + major1;
+
+
+  let grades = [10, 59, 60];
+ let sum = 0;
+ if (grades.length > 0){
+     for (index = 0; index < grades.length; index++) { 
+        if (grades[index] != undefined)
+     sum += grades[index];
+     }
+       document.open();
+     document.write(sum*grades.length);
+     
+ }
+
+ else  { 
+     document.open();
+      document.write("Empty Array");
+     prompt('Identify Yourself Now !');
+      console.log('hello');
+ }
 
     
