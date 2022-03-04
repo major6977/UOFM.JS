@@ -101,28 +101,46 @@
 // document.getElementById('helpMePlease').innerHTML = 'Learning Javascript is fun ' + major1;
 
 
- let grades = [67, , , ,97 , , 12];
- let sum = 0;
- let count = 0;
- if (grades.length > 0){
-     for (index = 0; index < grades.length; index++) { 
-        if (grades[index] != undefined){ 
-            sum += grades[index];
-        count = count + 1;
-        }
-     }
-     document.open();
-     document.write(sum/count);
-     document.close();
-     console.log(grades);
+//  let grades = [67, , , ,97 , , 12];
+//  let sum = 0;
+//  let count = 0;
+//  if (grades.length > 0){
+//      for (index = 0; index < grades.length; index++) { 
+//         if (grades[index] != undefined){ 
+//             sum += grades[index];
+//         count = count + 1;
+//         }
+//      }
+//      document.open();
+//      document.write(sum/count);
+//      document.close();
+//      console.log(grades);
      
- }
+//  }
 
-  else  
-     document.open();
-     document.write("Empty Array");
-//      prompt('Identify Yourself Now !');
-     document.close();
+//   else  
+//      document.open();
+//      document.write("Empty Array");
+// //      prompt('Identify Yourself Now !');
+//      document.close();
 
 
-    
+let person = prompt("what is your name?")
+
+if (person.length != 0){
+    if (person == "Major"){ 
+    document.open();
+    document.write("Thank you");
+    document.close();
+}
+    else
+
+
+    document.open();
+    document.write("Hey There " + person);
+    document.close();
+}
+    else
+        document.open();
+        document.write("Why are you here ?");
+        document.close();
