@@ -101,23 +101,28 @@
 // document.getElementById('helpMePlease').innerHTML = 'Learning Javascript is fun ' + major1;
 
 
-  let grades = [10, 59, 60];
+ let grades = [67, , , ,97 , , 12];
  let sum = 0;
+ let count = 0;
  if (grades.length > 0){
      for (index = 0; index < grades.length; index++) { 
-        if (grades[index] != undefined)
-     sum += grades[index];
+        if (grades[index] != undefined){ 
+            sum += grades[index];
+        count = count + 1;
+        }
      }
-       document.open();
-     document.write(sum*grades.length);
+     document.open();
+     document.write(sum/count);
+     document.close();
+     console.log(grades);
      
  }
 
- else  { 
+  else  
      document.open();
-      document.write("Empty Array");
-     prompt('Identify Yourself Now !');
-      console.log('hello');
- }
+     document.write("Empty Array");
+//      prompt('Identify Yourself Now !');
+     document.close();
+
 
     
